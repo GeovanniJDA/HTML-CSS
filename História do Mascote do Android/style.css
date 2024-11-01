@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body *{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #34b8706c;
+}
+
+header{
+  background: linear-gradient(to bottom, #34b86f, #1b5837);
+  color: white;
+  text-align: center;
+
+  h1{
+    padding: 20px 0 25px;
+  }
+  p{
+    padding: 5px 0 30px;
+  }
+}
+
+nav{
+  text-align: start;
+  padding-bottom: 15px;
+
+  a{
+    color: #46ff99;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 8px;
+
+  }
+
+  a:hover{
+    background-color: #34b870b0;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+  }
+}
+
+
+main{
+  margin: 0 15% 0 15%;
+  /* padding: 0 2% 0 2%; */
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius:  0 0 20px 20px;
+}
+
+section{
+  margin: 0;
+  padding: 0 2% 0 2%;
+}
+
+@font-face {
+  font-family: 'idroid';
+  src: url(./fontes/idroid.otf);
+}
+
+h1{
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.title{
+  font-family: 'idroid';
+  color: #216b43;
+  margin: 0px 0 20px 0;
+}
+
+.btn {
+  padding: 0 0 0 10px;
+  background: linear-gradient(90deg, rgba(0,255,117,0.8796451686143207) 0%, rgb(255, 255, 255) 100%); 
+}
+
+.description{
+  padding-top: 5px;
+  text-align: justify;
+  margin-bottom: 20px;
+  text-indent: 35px;
+  font-size: 18px;
+  line-height: 40px;
+  color: rgb(56, 56, 56);
+}
+
+.droids{
+  text-align: center;
+}
+
+strong{
+  color: #216b43;
+}
+
+.links{
+  color: #216b43;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 2px 5px 2px 5px;
+}
+
+.imgs{
+  width: 100%;
+}
+
+#bugdroid{
+  display: flex;
+  margin:  0 auto;
+  padding-bottom: 20px;
+}
+
+#video{
+  background-color: #34b86f;
+  padding: 30px 40px 30px 40px;
+}
+
+iframe{
+  width: 100%;
+  height: 768px;
+}
+
+#versoes{
+  padding: 30px 20px 30px 20px;
+}
+
+#box{
+  background-color: #46ff999a;
+  border-radius: 8px;
+  padding: 0 15px 10px 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  
+  h2{
+    color: white;
+    background-color: #1c663d;
+    padding: 8px;
+    margin: 0 -15px 20px -15px;
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+#listaVersoes{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#listaVersoes li{
+  width: calc(50% - 20px); /* Deixe um espaço de 20px entre as colunas */
+  margin: 5px;
+}
+
+#description-End{
+  padding: 0 8px 25px 8px;
+}
+
+#description{
+  text-align: center;
+  text-indent: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(56, 56, 56);
+}
+
+footer{
+  color: white;
+  background-color: #16492e;
+  padding: 5px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
