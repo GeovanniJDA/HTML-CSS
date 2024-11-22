@@ -7,6 +7,7 @@
   
   #login{
     width: 80vw;
+    height: 32%;
 
   }
 
@@ -30,6 +31,7 @@
 
   #login{
     width: 950px;
+    height: 38%;
   }
 
   #imagem{
@@ -48,6 +50,7 @@
 
     p{
       font-size: .7em;
+      margin: .4rem 0;
     }
   }
 }

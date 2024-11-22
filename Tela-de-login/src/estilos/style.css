@@ -34,7 +34,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   overflow: hidden;
   background-color: white;
   width: 6.5rem;
@@ -42,6 +41,7 @@
   border-radius: 0.5rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.450);
 
+  transform: translate(-50%, -50%);
   transition: width .3s, height .3s;
   transition-timing-function: ease;
  }
@@ -70,14 +70,37 @@
 
  .campo{
   background-color: #9e1111;
+  border: .1rem solid #9e1111;
   width: 100%;
   display: block;
   height: 1rem;
-  border-radius: .2rem;
-  margin: .1rem 0;
+  border-radius: .4rem;
+  margin: .2rem 0;
 
   label{
     display: none;
+  }
+
+  span{
+    color: white;
+    font-size: 3.5em;
+    width: 1rem;
+    padding: .1rem;
+  }
+
+  input{
+    background-color: rgb(96, 117, 235);
+    font-size: 1.4em;
+    width: calc(100% - 1.1rem);
+    border: 0;
+    height: 100%;
+    border-radius: .3rem;
+    padding: .4rem;
+    transform: translateY(-.4rem);
+  }
+
+  input:hover:focus-within{
+    background-color: white;
   }
  }
 
